@@ -1,0 +1,79 @@
+<DOCTYPE! html>
+<html>
+  <head>
+  	<title>UAB Nikota. Metalo konstrukcijų gamyba</title>
+  	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+  	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="description" content="UAB Nikota. Metalo konstrukcijų gamyba Mažeikių rajone. Suvirinimo paslaugos">
+    <meta name="keywords" content="metalo konstrukcijų gamyba mažeikiuose, metalo konstrukcijų gamyba mažeikių rajone, metalo konstrukcijos mažeikiuose, metalo konstrukcijos mažeikiai, suvirinimo paslaugos mažeikiuose, suvirinimas mažeikiuose, suvirinimas mažeikiai, suvirinimo paslaugos, suvirinimas, metalo konstrukcijos, metalo konstrukcijų gamyba">
+  </head>
+  <body>
+   	<header>
+  		<a class="logo" href="index.html"><img src="logo2.png" /></a>
+  		<nav>
+  			<ul>
+  				<li><a href=#paslaugoslink>Paslaugos</a></li>
+  				<li><a href=#darbailink>Darbų Pavyzdžiai</a></li>
+  				<li><a href=#kontaktailink>Kontaktai</a></li>
+  			</ul>
+  		</nav>
+  	</header>
+  	    
+  	    <div class="content">
+        <div class="background-img"></div>
+
+
+  	        <div class="paslaugos box" ID="paslaugoslink">
+  	    	  <h1>Paslaugos:</h1>
+  	          	<ul>
+  		    	  <li>Metalo konstrukcijų gamyba;</li>
+  			      <li>Žemės ūkio technikos remontas;</li>
+  		          <li>Metalinių detalių pjovimas staklėmis (5-200mm);</li>
+  		    	  <li>Aliuminio virinimas dujų aplinkoje;</li>
+  			      <li>Suvirinimas;</li>
+  			      <li>Atvykimas pas užsakovą;</li>
+  			      <li>Profilių, kampuočių, U formos metalo ir vamzdžių lankstymas staklėmis.</li>
+  		       </ul>
+
+  	        </div>
+  	        <div class="darbai box" ID="darbailink">
+  		      <h1>Darbų pavyzdžiai:</h1>
+  		      <a href="pvz1.jpg"><img src="pvz1.jpg" /></a>
+  		      <a href="pvz2.jpg"><img src="pvz2.jpg" /></a>
+  		      <a href="pvz3.jpg"><img src="pvz3.jpg" /></a>
+  		      <a href="pvz4.jpg"><img src="pvz4.jpg" /></a>
+  		      <a href="pvz5.jpg"><img src="pvz5.jpg" /></a>
+  		      <a href="pvz6.jpg"><img src="pvz6.jpg" /></a>
+  	        </div>
+
+        </div>
+        <footer>
+            <div class="kontaktai" ID="kontaktailink">
+              <h1>Kontaktai:</h1>
+              <h4>UAB Nikota</h4>
+              <p><strong>Adresas:</strong> Taikos g. 7, LT-89482, Palnosai, Mažeikių sav.</p>
+              <p><strong>Telefonas:</strong> +37063340338</p>
+              <p><strong>El. paštas:</strong> <a href="mailto:Nikota_j@hotmail.com">Nikota_j@hotmail.com</a></p>
+              <p><strong>Įmonės kodas:</strong> 304579868</p>
+            </div>
+            
+            <div id="map"></div>
+            
+            <script>
+            function initMap() {
+              var map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 56.232333, lng: 22.592194},
+                zoom: 14
+              });
+              var marker = new google.maps.Marker({
+                position: {lat: 56.232333, lng: 22.592194},
+                map: map
+              })
+            }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiefE1aGkb0cqKIso36DdcrFfYV6EJFwI&callback=initMap"></script>
+            
+        </footer> 
+       </div>
+  </body>
+</html>
